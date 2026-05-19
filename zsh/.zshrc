@@ -15,10 +15,11 @@ eval "$(starship init zsh)"
 alias ls='eza --icons'
 alias ll='eza -lah --icons'
 alias cat='bat'
-alias cls='clear'
+alias fastfetchcfg='fastfetch --config ~/.config/fastfetch/arch.jsonc'
+alias clear='clear && fastfetchcfg'
 
 if [[ $- == *i* ]]; then
-  fastfetch --config ~/.config/fastfetch/arch.jsonc
+  fastfetchcfg
 fi
 
 export PATH=$HOME/.local/bin:$PATH
