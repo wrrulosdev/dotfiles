@@ -1,3 +1,3 @@
 ## Global Theme
 
-[Sweet](https://store.kde.org/p/1294729)
+[Ant-Dark](https://store.kde.org/p/1464332)
